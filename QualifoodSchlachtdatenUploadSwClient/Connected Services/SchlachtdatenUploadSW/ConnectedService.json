@@ -1,0 +1,15 @@
+{
+  "providerId": "Microsoft.Tools.ServiceModel.Svcutil",
+  "version": "2.1.0",
+  "ExtendedData": {
+    "inputs": [
+      "https://testwebservices.qualifood.de/Klassifizierer/SchlachtdatenUploadSW.svc"
+    ],
+    "namespaceMappings": [
+      "*, QualifoodSchlachtdatenUploadSwClient.SchlachtdatenUploadSW"
+    ],
+    "outputFile": "SchlachtdatenUploadSW.cs",
+    "targetFramework": "net9.0",
+    "typeReuseMode": "All"
+  }
+}
